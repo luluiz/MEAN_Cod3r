@@ -6,7 +6,7 @@
     "dev": "gulp",
     "production": "gulp --production"
   },
-  "author": "Fábio Alves",
+  "author": "Luiz Bezerra",
   "license": "ISC",
   "devDependencies": {
     "admin-lte": "^2.3.11",

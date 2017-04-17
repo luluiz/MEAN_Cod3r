@@ -14,7 +14,9 @@ const server = express();
 const allowCors = require('./cors');
 
 //uso da urlencoded para interpretar as requisições dos formulários
-server.use(bodyParser.urlencoded({ extended: true }));
+server.use(bodyParser.urlencoded({
+  extended: true
+}));
 
 //interpretar o conteudo JSON de todas as requisições
 server.use(bodyParser.json());
@@ -24,7 +26,7 @@ server.use(allowCors);
 
 //declaração da escuta da porta pelo server
 server.listen(port, function() {
-    console.log(`Backend is running on port ${port}.`);
+  console.log(`Backend is running on port ${port}.`);
 });
 
 //exportando o servidor

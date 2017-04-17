@@ -1,0 +1,43 @@
+{
+  "name": "mean-coder",
+  "version": "1.0.0",
+  "description": "Curso de Mongo, Express, Angular e Node ministrado por Leonardo Leitão",
+  "main": ".gulpfile",
+  "scripts": {
+    "frontdev": "gulp",
+    "frontproduction": "gulp --production",
+    "backdev": "nodemon",
+    "backproduction": "pm2 start loader.js --name backend"
+  },
+  "author": "Luiz Bezerra",
+  "license": "ISC",
+  "devDependencies": {
+    "admin-lte": "^2.3.11",
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-toastr": "^2.1.1",
+    "angular-ui-router": "^1.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-uglifycss": "^1.0.8",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-query-int": "^1.0.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.7",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.4.6"
+  }
+}
