@@ -16,7 +16,7 @@
     "angular": "^1.6.4",
     "angular-animate": "^1.6.4",
     "angular-toastr": "^2.1.1",
-    "angular-ui-router": "^1.0.0",
+    "angular-ui-router": "^1.0.3",
     "babel-preset-es2015": "^6.24.1",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
@@ -28,14 +28,15 @@
     "gulp-uglifycss": "^1.0.8",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
+    "nodemon": "^1.11.0",
     "gulp-webserver": "^0.9.1"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2",
+    "express": "^4.15.3",
     "express-query-int": "^1.0.1",
     "lodash": "^4.17.4",
-    "mongoose": "^4.9.7",
+    "mongoose": "^4.9.9",
     "mongoose-paginate": "^5.0.3",
     "node-restful": "^0.2.6",
     "pm2": "^2.4.6"
