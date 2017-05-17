@@ -4,8 +4,8 @@
   "description": "Curso de Mongo, Express, Angular e Node ministrado por Leonardo Leitão",
   "main": ".gulpfile",
   "scripts": {
-    "frontdev": "gulp",
-    "frontproduction": "gulp --production",
+    "dev": "gulp",
+    "production": "gulp --production",
     "backdev": "nodemon",
     "backproduction": "pm2 start loader.js --name backend"
   },
